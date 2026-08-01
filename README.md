@@ -14,3 +14,29 @@ Install with the [Skills CLI](https://github.com/vercel-labs/skills):
 npx skills add https://github.com/NolanJX/agent-skills --skill conventional-commits-draft
 pnpx skills add https://github.com/NolanJX/agent-skills --skill conventional-commits-draft  # if using pnpm
 ```
+
+### grill-me
+
+A self-contained version of [Matt Pocock's `grill-me`](https://github.com/mattpocock/skills).
+
+Install with the [Skills CLI](https://github.com/vercel-labs/skills):
+
+> User-invoked (never invoked by the model), so global installation is recommended.
+
+```bash
+npx skills add https://github.com/NolanJX/agent-skills --skill grill-me
+pnpx skills add https://github.com/NolanJX/agent-skills --skill grill-me  # if using pnpm
+```
+
+### grill-with-docs
+
+A self-contained version of [Matt Pocock's `grill-with-docs`](https://github.com/mattpocock/skills).
+
+Install with the [Skills CLI](https://github.com/vercel-labs/skills):
+
+> User-invoked (never invoked by the model), so global installation is recommended.
+
+```bash
+npx skills add https://github.com/NolanJX/agent-skills --skill grill-with-docs
+pnpx skills add https://github.com/NolanJX/agent-skills --skill grill-with-docs  # if using pnpm
+```
