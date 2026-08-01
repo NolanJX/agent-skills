@@ -15,6 +15,8 @@ npx skills add https://github.com/NolanJX/agent-skills --skill conventional-comm
 pnpx skills add https://github.com/NolanJX/agent-skills --skill conventional-commits-draft  # if using pnpm
 ```
 
+> **Self-contained versions.** Matt Pocock's `grill-me` and `grill-with-docs` are thin wrappers that delegate to the `grilling` (and, for `grill-with-docs`, `domain-modeling`) skills — installing either via the Skills CLI means installing those dependencies separately too. The versions below inline that content directly, so each installs standalone with no extra skills required.
+
 ### grill-me
 
 A self-contained version of [Matt Pocock's `grill-me`](https://github.com/mattpocock/skills).
