@@ -75,6 +75,13 @@ Analyze the diff to determine:
 - Imperative mood: "fix bug" not "fixes bug"
 - Keep description under 72 characters
 
+### Rules by Type
+
+**`fix`** — describe the post-fix behavior, not the fix itself:
+
+- `fix(v-model): handle events on blur`, not `fix(v-model): add blur event listeners`
+- `fix(runtime-core): avoid caching unmounted suspense children`, not `fix(runtime-core): add vnode.component check before caching`
+
 ## Constraints
 
 - NEVER update git config
