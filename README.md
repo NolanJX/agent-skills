@@ -45,3 +45,30 @@ A self-contained version of [Matt Pocock's `grill-with-docs`](https://github.com
 npx skills add https://github.com/NolanJX/agent-skills --skill grill-with-docs
 pnpx skills add https://github.com/NolanJX/agent-skills --skill grill-with-docs  # if using pnpm
 ```
+
+## Upstream snapshots
+
+This repo also archives worthwhile upstream skills as verbatim snapshots, each pinned at a commit chosen for stability. Two factors go into the choice — both rules of thumb rather than fixed thresholds, and both weighed per upstream repo:
+
+- The skill has gone a good while — three weeks or more — without substantive changes to its own content.
+- The skill has sat unchanged through a good run of upstream commits — a few dozen.
+
+Changes that don't touch a skill's content, such as an `agents/openai.yaml` tweak, don't count.
+
+Some upstream skills are thin wrappers that delegate to other skills — those already have self-contained versions above. The rest aren't copied into `skills/` — there's nothing to inline — so you install them straight from their snapshot:
+
+```bash
+npx skills add https://github.com/NolanJX/agent-skills/tree/main/upstream/<author>/<snapshot-hash>/<skill-name>
+pnpx skills add https://github.com/NolanJX/agent-skills/tree/main/upstream/<author>/<snapshot-hash>/<skill-name>  # if using pnpm
+```
+
+Among the upstream skills that don't delegate, the ones recommended below are pinned at their latest archived snapshots (an omission says nothing about a skill's worth — it just means agents today probably no longer need it).
+
+### handoff
+
+Compact the current conversation into a handoff document for another agent to pick up. From [Matt Pocock's skills](https://github.com/mattpocock/skills).
+
+```bash
+npx skills add https://github.com/NolanJX/agent-skills/tree/main/upstream/mattpocock/697d4ce/handoff
+pnpx skills add https://github.com/NolanJX/agent-skills/tree/main/upstream/mattpocock/697d4ce/handoff  # if using pnpm
+```
