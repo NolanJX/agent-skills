@@ -58,8 +58,8 @@ Changes that don't touch a skill's content, such as an `agents/openai.yaml` twea
 Some upstream skills are thin wrappers that delegate to other skills — those already have self-contained versions above. The rest aren't copied into `skills/` — there's nothing to inline — so you install them straight from their snapshot:
 
 ```bash
-npx skills add https://github.com/NolanJX/agent-skills/tree/main/upstream/<author>/<snapshot-hash>/<skill-name>
-pnpx skills add https://github.com/NolanJX/agent-skills/tree/main/upstream/<author>/<snapshot-hash>/<skill-name>  # if using pnpm
+npx skills add https://github.com/NolanJX/agent-skills/tree/main/upstream/<source>/<snapshot-hash>/<skill-name>
+pnpx skills add https://github.com/NolanJX/agent-skills/tree/main/upstream/<source>/<snapshot-hash>/<skill-name>  # if using pnpm
 ```
 
 Among the upstream skills that don't delegate, the ones recommended below are pinned at their latest archived snapshots (an omission says nothing about a skill's worth — it just means agents today probably no longer need it).
