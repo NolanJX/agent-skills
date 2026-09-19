@@ -19,6 +19,15 @@ pnpx skills add https://github.com/NolanJX/agent-skills --skill <skill-name>  # 
 
 > **Self-contained versions.** Some upstream skills are thin wrappers that delegate to other skills — installing one via the Skills CLI means installing its dependencies separately too. When a skill below is described as a *self-contained version*, it inlines the delegated content directly, so it installs standalone with no extra skills required. For example, Matt Pocock's `grill-me` and `grill-with-docs` delegate to `grilling` (and, for `grill-with-docs`, `domain-modeling`); the versions in this repo inline those skills' content.
 
+### brainstorming
+
+Help turn ideas into fully formed designs and specs through natural collaborative dialogue. Adapted from [obra/superpowers' `brainstorming`](https://github.com/obra/superpowers/blob/05d90ac/skills/brainstorming/SKILL.md) at `05d90ac` (pre-router era) — visual companion and `writing-plans` handoff removed.
+
+```bash
+npx skills add https://github.com/NolanJX/agent-skills --skill brainstorming
+pnpx skills add https://github.com/NolanJX/agent-skills --skill brainstorming  # if using pnpm
+```
+
 ### conventional-commits-draft
 
 Draft a Conventional Commits message from the staged diff. Adapted from [awesome-copilot's git-commit skill](https://github.com/github/awesome-copilot/blob/main/skills/git-commit/SKILL.md).
