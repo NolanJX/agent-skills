@@ -33,6 +33,15 @@ Draft a standardized, semantic git commit message using the Conventional Commits
 | `chore`    | Maintenance/misc               |
 | `revert`   | Revert commit                  |
 
+## Config-Only Repositories
+
+When the repo's product is configuration itself (e.g. dotfiles):
+
+| Change                                      | Type   |
+| ------------------------------------------- | ------ |
+| Add/adjust configuration                    | `feat` |
+| Correct misbehavior caused by configuration | `fix`  |
+
 ## Breaking Changes
 
 ```
