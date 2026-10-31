@@ -81,3 +81,12 @@ Compact the current conversation into a handoff document for another agent to pi
 npx skills add https://github.com/NolanJX/agent-skills/tree/main/upstream/mattpocock/697d4ce/handoff
 pnpx skills add https://github.com/NolanJX/agent-skills/tree/main/upstream/mattpocock/697d4ce/handoff  # if using pnpm
 ```
+
+### show-me
+
+Help the user understand the current topic visually with concise diagrams, code-shape sketches, and focused HTML artifacts. From [HumanLayer's skills](https://github.com/humanlayer/skills).
+
+```bash
+npx skills add https://github.com/NolanJX/agent-skills/tree/main/upstream/humanlayer/bba9d13/show-me
+pnpx skills add https://github.com/NolanJX/agent-skills/tree/main/upstream/humanlayer/bba9d13/show-me  # if using pnpm
+```
