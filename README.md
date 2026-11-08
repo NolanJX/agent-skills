@@ -90,3 +90,12 @@ Help the user understand the current topic visually with concise diagrams, code-
 npx skills add https://github.com/NolanJX/agent-skills/tree/main/upstream/humanlayer/bba9d13/show-me
 pnpx skills add https://github.com/NolanJX/agent-skills/tree/main/upstream/humanlayer/bba9d13/show-me  # if using pnpm
 ```
+
+### writing-for-agents
+
+Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md. From [Matt Pocock's skills](https://github.com/mattpocock/skills). Model-invoked.
+
+```bash
+npx skills add https://github.com/NolanJX/agent-skills/tree/main/upstream/mattpocock/3216582/writing-for-agents
+pnpx skills add https://github.com/NolanJX/agent-skills/tree/main/upstream/mattpocock/3216582/writing-for-agents  # if using pnpm
+```
