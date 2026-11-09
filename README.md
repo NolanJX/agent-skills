@@ -2,11 +2,12 @@
 
 Skills for the artisanal programmer. AI for speed, craft for control.
 
-Artisanal as in handcrafted, not as in Luddite. The point of this repo is to let AI accelerate everything it can. The non-negotiable: your hands stay on the wheel. To that end, every skill here plays by the same three rules:
+Artisanal as in handcrafted, not as in Luddite. The point of this repo is to let AI accelerate everything it can. The non-negotiable: your hands stay on the wheel. To that end, every skill here plays by the same four rules:
 
 - **Readable.** Plain Markdown only.
 - **Self-contained.** No hidden dependencies.
 - **User-invoked.** `disable-model-invocation: true` — it runs when you ask, never when the model decides.
+- **Model-invoked, reference-only.** It informs, never acts.
 
 ## Skills
 
