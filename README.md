@@ -56,6 +56,15 @@ npx skills add https://github.com/NolanJX/agent-skills --skill grill-with-docs
 pnpx skills add https://github.com/NolanJX/agent-skills --skill grill-with-docs  # if using pnpm
 ```
 
+### retro
+
+Conduct a retrospective on a coding session. A self-contained version of [Matt Pocock's `retro`](https://github.com/mattpocock/skills).
+
+```bash
+npx skills add https://github.com/NolanJX/agent-skills --skill retro
+pnpx skills add https://github.com/NolanJX/agent-skills --skill retro  # if using pnpm
+```
+
 ## Upstream snapshots
 
 This repo also archives worthwhile upstream skills as verbatim snapshots, each pinned at a commit chosen for stability. Two factors go into the choice — both rules of thumb rather than fixed thresholds, and both weighed per upstream repo:
