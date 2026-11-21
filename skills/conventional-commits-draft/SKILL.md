@@ -63,7 +63,7 @@ git diff --staged
 Reference recent commits to align type, scope, and language with the repository's existing style:
 
 ```bash
-git log --format="%s" -20
+git log --format="%s" -50
 ```
 
 - **Language**: write the description in the same language as recent commits.
