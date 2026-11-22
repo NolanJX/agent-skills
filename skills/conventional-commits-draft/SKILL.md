@@ -63,11 +63,17 @@ git diff --staged
 Reference recent commits to align type, scope, and language with the repository's existing style:
 
 ```bash
+# Global style: type, language, tone
 git log --format="%s" -50
+
+# Same-path scope (single staged file only)
+git diff --staged --name-only
+git log --format="%s" -20 -- path/to/staged/file
 ```
 
 - **Language**: write the description in the same language as recent commits.
-- **Scope/type**: reuse the wording and abbreviations already used in the repo.
+- **Type**: reuse the wording and abbreviations already used in the repo.
+- **Scope**: single staged file → prefer same-path scopes, global as fallback; multiple staged files → global only.
 
 ### 3. Generate Commit Message
 
